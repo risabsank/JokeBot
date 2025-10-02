@@ -68,7 +68,7 @@ These must be defined in your shell environment or .env.local when running under
 
 ## Usage
 
-# Running the API
+### Running the API
 Start the Next.js development server:
 
 ```
@@ -100,7 +100,7 @@ Response format:
 }
 ```
 
-# Running the Test Client
+### Running the Test Client
 The test.js script allows you to query providers directly.
 
 Examples:
@@ -119,9 +119,5 @@ Examples:
 ./test.js local "Generate a haiku about the ocean"
 ```
 
-# Error Handling
+### Error Handling
 The adapters include explicit error handling. If a provider returns an error, the unified API will respond with an error object and HTTP status 500. The test client prints descriptive error messages to the console.
-
-Copy code
-
-Would you like me to also add a **diagram section** (using Mermaid syntax) that shows the request fl
